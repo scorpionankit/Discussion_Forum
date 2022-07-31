@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class = "nav">
+            <p id = "navText">Discussion Portal</p>
+        </div>
+        <div class = "mainContainer">
+            <div class = "container1">
+                <!----New Question and Searching field-->
+                <div class = "container1Section">
+                    <button id = "questionbtn">New Question Form</button>
+                    <input type="text" placeholder="search question..." id = "searchQuestionText" >
+                </div>
+                <div class = "leftPane">
+                    <ul id = "questionList">
+
+                    </ul>
+                </div>
+            </div>
+            <div class = "container2">
+                <div id = "container2Text">
+                    <div>
+                        <h1>Welcome To Discussion Portal !</h1>
+                        <h4> Enter a subject and question to get started</h4>
+                    </div>
+
+                    <!---Input Field Of Subject-->
+                    <div>
+                        <input type = "text" placeholder="Subject" id = "subject" required><br>
+                        <textarea id = "question" placeholder="Question" cols = "60" rows = "10" required></textarea><br>
+                        <button id = "submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
